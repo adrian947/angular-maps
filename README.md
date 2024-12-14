@@ -5,25 +5,16 @@
 3. Coloca la var de entorno de maplibre
 4. Ejecuta el scrip npm run set-env
 
-Manejo de librerías escritas en JavaScript en TypeScript
+## temario curso seccion 21 - Mapas y librerias externas
 
-Uso de Mapas basados en Mapbox (el API es similar a la de Google Maps)
+Uso de Mapas basados en Maplibre
 
-Marcadores
-
-Eventos
-
-FlyTo
-
-Coordenadas geográficas
-
-Componentes para re-utilización de mapas
-
-Mantener objetos de forma persistente
-
-@types
-
-Zoom
-
-Range
+- Marcadores
+- Eventos
+- FlyTo
+- Coordenadas geográficas
+- Componentes para re-utilización de mapas
+- @types
+- Zoom
+- Range
 
