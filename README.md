@@ -1,27 +1,29 @@
-# MapsApp
+# Getting started
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+1. Clona el repositorio en tu máquina local
+2. Crea un archivo .env teniendo en cuenta el env.template
+3. Coloca la var de entorno de maplibre
+4. Ejecuta el scrip npm run set-env
 
-## Development server
+Manejo de librerías escritas en JavaScript en TypeScript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Uso de Mapas basados en Mapbox (el API es similar a la de Google Maps)
 
-## Code scaffolding
+Marcadores
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Eventos
 
-## Build
+FlyTo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Coordenadas geográficas
 
-## Running unit tests
+Componentes para re-utilización de mapas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Mantener objetos de forma persistente
 
-## Running end-to-end tests
+@types
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Zoom
 
-## Further help
+Range
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

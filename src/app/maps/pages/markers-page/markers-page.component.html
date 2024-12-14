@@ -1,0 +1,17 @@
+<div #map class="map-container"></div>
+
+<div class="markers-list">
+  <ul *ngFor="let item of markersList; index as i">
+    <button
+      [ngStyle]="{ border: '5px solid' + item.color, color: item.color }"
+      (dblclick)="handleRemoveMarket(i)"
+      (click)="handleFlyTo(item)"
+    >
+      Marker {{ i + 1 }}
+    </button>
+  </ul>
+</div>
+
+<button class="btn btn-primary add-marker-button" (click)="createMarket()">
+  + Add Marker
+</button>
