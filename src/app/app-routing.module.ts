@@ -4,16 +4,20 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'maps',
-    loadChildren: ()=> import('./maps/maps.module').then(m=> m.MapsModule)
+    loadChildren: () => import('./maps/maps.module').then((m) => m.MapsModule),
+  },
+  {
+    path: 'about',
+    loadComponent: ()=> import('./alone/pages/alone-page/alone-page.component').then(m=> m.AlonePageComponent)
   },
   {
     path: '**',
-    redirectTo: 'maps'
-  }
+    redirectTo: 'maps',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

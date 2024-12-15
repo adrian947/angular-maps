@@ -1,5 +1,6 @@
 .active {
   font-weight: bold;
   color: #f8f9fa; /* Blanco o cualquier otro color */
-  background-color: transparent !important
+  background-color: transparent !important;
+
 }

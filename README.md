@@ -18,3 +18,10 @@ Uso de Mapas basados en Maplibre
 - Zoom
 - Range
 
+## temario curso seccion 22 - Standalone
+
+- Refactorizacion de rutas y layout
+- Standalone components
+- Router
+- Navigate
+
